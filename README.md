@@ -13,7 +13,7 @@ ____
   <a href="#approach">Approach</a> •
   <a href="#usage">Usage</a> •
   <a href="#installation">Installation</a> •
-  <a href="#Contacts">Contacts</a> •
+  <a href="#contacts">Contacts</a> •
 </p>
 
 ____
@@ -110,9 +110,9 @@ Installation </br>
 Contacts </br>
 </h2>
 
-<p align="center">
- <a href="https://www.linkedin.com/in/saveliybelkin/">LinkedIn</a> *
- <a href="https://github.com/SavOK">GitHub</a>
+<p align="center">|
+ <a href="https://www.linkedin.com/in/saveliybelkin/">LinkedIn</a> |
+ <a href="https://github.com/SavOK">GitHub</a> |
 </p>
 
 ___
