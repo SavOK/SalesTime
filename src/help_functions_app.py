@@ -155,6 +155,8 @@ def get_data_around_point(
         )
     return pd.DataFrame(data)
 
+
+# df = get_data_around_point([33.50919623713959, -86.84928244609489], 60, "car", 722511)
 def get_state_coord_dict():
     return {
         "AK": (61.167624, -149.870273),

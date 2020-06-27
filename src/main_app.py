@@ -28,6 +28,8 @@ mapbox_access_token = open(config.PROJECT_LOC + "/.configs/mapbox.api").read()
 
 
 start_point = (42.355, -71.07)
+# data = get_data(point)
+# data.to_csv("./test.csv", index=False)
 data = pd.read_csv("./test.csv")
 
 
@@ -62,6 +64,7 @@ def make_dash_table(df: pd.DataFrame):
         ],
         style_cell={"backgroundColor": "rgb(50, 50, 50)", "color": "white"},
         sort_action="native",
+        # sort_mode="single",
     )
     return table
 
@@ -258,3 +261,5 @@ def map_click(click_lat_lng, business_type, transportation_type, time_limit):
 
 if __name__ == "__main__":
     app.run_server(debug=True, host="0.0.0.0", port=80)
+
+# pyo.plot(fig, filename="test.html")
