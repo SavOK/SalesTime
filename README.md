@@ -37,6 +37,7 @@ Approach </br>
 * Process data with PySpark (clean and normalize) 
 * Store data in Postgres 
 * Use PostGIST to index spacial data (location)
+* Use Here.com API to get driving/walking time estimate 
 * Dash UI to interact with data
 ### Cleaning Data 
 * Data saved at S3 as 51 csv files
@@ -59,6 +60,8 @@ ___
 <h2 align='center', id='usage'> 
 Usage </br>
 </h2>
+
+[![Demo Video](https://img.youtube.com/vi/wmZdmdz01LA/0.jpg)](https://www.youtube.com/watch?v=wmZdmdz01LA)
 
 ___
 <h2 align='center', id='installation'> 
